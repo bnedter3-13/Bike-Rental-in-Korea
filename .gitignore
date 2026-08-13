@@ -7,3 +7,4 @@ venv/
 
 # Trained model artifacts can be large; keep metrics.json but skip the binary weights
 models/*.pkl
+.DS_Store
