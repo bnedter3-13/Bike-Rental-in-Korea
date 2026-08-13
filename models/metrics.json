@@ -1,0 +1,16 @@
+{
+  "model_version": "v1",
+  "selected_model": "random_forest",
+  "models": {
+    "linear_regression": {
+      "rmse": 318.16251270252855,
+      "mae": 203.16066054413434,
+      "r2": 0.7526218444073639
+    },
+    "random_forest": {
+      "rmse": 192.2921727387634,
+      "mae": 112.16298812679987,
+      "r2": 0.9096378522651833
+    }
+  }
+}

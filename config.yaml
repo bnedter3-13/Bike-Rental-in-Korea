@@ -1,0 +1,20 @@
+data:
+  raw_path: "SeoulBikeData.csv"
+  encoding: "cp1252"
+
+split:
+  test_size: 0.25
+  random_state: 42
+
+model:
+  version: "v1"
+  random_forest:
+    n_estimators: 300
+    max_depth: 20
+    random_state: 42
+    n_jobs: -1
+
+output:
+  models_dir: "models"
+  model_filename: "model_v1.pkl"
+  metrics_filename: "metrics.json"

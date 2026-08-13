@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Trained model artifacts can be large; keep metrics.json but skip the binary weights
+models/*.pkl
